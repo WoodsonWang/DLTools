@@ -120,5 +120,3 @@ if __name__ == '__main__':
     model = PSPNet()
     model.build(input_shape=(None,640,640,4))
     model.summary()
-    # model = ResNet50()
-    # model.summary()

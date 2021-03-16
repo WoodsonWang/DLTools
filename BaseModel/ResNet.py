@@ -61,8 +61,8 @@ class ResNet50(Model):
 
     def build(self, input_shape):
         print('-------------')
-        x = tf.keras.layers.Input(shape=(640, 640, 4))
-        self.call(x)
+        # x = tf.keras.layers.Input(shape=(640, 640, 4))
+        # self.call(x)
         super(ResNet50, self).build(input_shape)
 
     def call(self, inputs, training=None, mask=None):
